@@ -226,7 +226,7 @@ export default function(PDFJS) {
 
 			pendingOperation = pendingOperation.then(function() {
 
-				var getAnnotationsOperation =
+				/*var getAnnotationsOperation =
 				pdfPage.getAnnotations({ intent: 'display' })
 				.then(function(annotations) {
 
@@ -238,7 +238,7 @@ export default function(PDFJS) {
 						linkService: linkService,
 						renderInteractiveForms: false
 					});
-				});
+				});*/
 
 				var pdfRenderOperation =
 				pdfRender.promise
@@ -260,7 +260,9 @@ export default function(PDFJS) {
 					emitEvent('error', err);
 				}.bind(this))
 
-				return Promise.all([getAnnotationsOperation, pdfRenderOperation]);
+				//return Promise.all([getAnnotationsOperation, pdfRenderOperation]);
+				return Promise.all([pdfRenderOperation]);
+
 			}.bind(this));
 		}
 
