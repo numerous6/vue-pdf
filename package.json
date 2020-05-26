@@ -1,24 +1,21 @@
 {
-  "name": "vue-pdf",
+  "name": "vue-pdf-aas",
   "version": "4.0.8",
   "description": "vue.js pdf viewer",
   "main": "src/vuePdfNoSss.vue",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FranckFreiburger/vue-pdf.git"
+    "url": "https://github.com/numerous6/vue-pdf.git"
   },
   "keywords": [
     "vue.js",
     "pdf",
     "viewer"
   ],
-  "author": "Franck FREIBURGER",
+  "author": "Angel Aguilar",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/FranckFreiburger/vue-pdf/issues"
-  },
-  "homepage": "https://github.com/FranckFreiburger/vue-pdf#readme",
+  "homepage": "https://github.com/numerous6/vue-pdf",
   "dependencies": {
     "babel-plugin-syntax-dynamic-import": "^6.18.0",
     "loader-utils": "^1.2.3",
